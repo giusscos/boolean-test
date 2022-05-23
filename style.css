@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+:root{
+    --high-charge: #008100;
+    --mid-charge: #f5c834;
+    --low-charge: #912323;
+}
+input{
+    margin: 5px;
+}
+.pos-absolute-50-10{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%); 
+}
+.pos-absolute-50-40{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%); 
+}
+.dark-green{
+    background-color: var(--high-charge);
+}
+.orange{
+    background-color: var(--mid-charge);
+}
+.red{
+    background-color: var(--low-charge);
+}
+body{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.main-container{
+    background-color: rgba(0, 0,0, 0.5);
+    width: 70%;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    border-radius: 30px;
+}
+.top-container{
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top-logo{
+    width: 250px;
+    margin: auto;
+}
+.top-heading{
+    color: #00ff00;
+    font-weight: 500;
+    margin: 5px auto;
+}
+.graph-container{
+    height: 50px;
+    min-width: 100%;
+    background-color: #00ff00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.graph-button{
+    margin: 0px 5px;
+    padding: 2px 5px;
+}
+.mid-container{
+    color: #fff;
+    min-width: 80%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-name{
+    font-size: 24px;
+    font-weight: 600;
+}
+.info-location,
+.info-charge{
+    font-size: 16px;
+    font-weight: 300;
+}
+.large-width{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2px 0px;
+}
+.medium-width{
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2px 0px;
+}
+.small-width{
+    width: 12%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 2px 0px;
+}
+/* Fin <3 */
